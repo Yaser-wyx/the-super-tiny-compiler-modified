@@ -75,7 +75,7 @@
 
 /**
  * Today we're going write a compiler together. But not just any compiler... A
- * super duper tiny teeny compiler! A compiler that is so small that if you
+ * super duper teeny tiny compiler! A compiler that is so small that if you
  * remove all the comments this file would only be ~200 lines of actual code.
  *
  * We're going to compile some lisp-like function calls into some C-like
@@ -211,7 +211,7 @@
  *
  * When transforming the AST we can manipulate nodes by
  * adding/removing/replacing properties, we can add new nodes, remove nodes, or
- * we could leave the existing AST alone and create and entirely new one based
+ * we could leave the existing AST alone and create an entirely new one based
  * on it.
  *
  * Since we’re targeting a new language, we’re going to focus on creating an
@@ -650,7 +650,7 @@ function parser(tokens) {
  *   });
  */
 
-// So we define a <code>traverser</code> function which accepts an AST and a
+// So we define a traverser function which accepts an AST and a
 // visitor. Inside we're going to define two functions...
 function traverser(ast, visitor) {
 
