@@ -688,7 +688,7 @@ function traverser(ast, visitor) {
         traverseArray(node.body, node);
         break;
 
-      // Next we do the same will `CallExpressions` and traverse their `params`.
+      // Next we do the same with `CallExpressions` and traverse their `params`.
       case 'CallExpression':
         traverseArray(node.params, node);
         break;
