@@ -95,11 +95,11 @@
  *
  * Well good, because this is exactly what we are going to compile. While this
  * is neither a complete LISP or C syntax, it will be enough of the syntax to
- * demonstrate many of major pieces of a modern compiler.
+ * demonstrate many of the major pieces of a modern compiler.
  */
 
 /**
- * Most compiler break down into three primary stages: Parsing, Transformation,
+ * Most compilers break down into three primary stages: Parsing, Transformation,
  * and Code Generation
  *
  * 1. *Parsing* is taking raw code and turning it into a more abstract
@@ -131,7 +131,7 @@
  *    to one another. This is known as an intermediate representation or
  *    Abstract Syntax Tree.
  *
- *    An Abstract Syntax Tree or AST for short is a deeply nested object that
+ *    An Abstract Syntax Tree, or AST for short, is a deeply nested object that
  *    represents code in a way that is both easy to work with and tells us a lot
  *    of information.
  *
@@ -182,7 +182,7 @@
  * Transformation
  * --------------
  *
- * The next type of stage of a compiler is transformation. Again, this just
+ * The next type of stage for a compiler is transformation. Again, this just
  * takes the AST from the last step and makes changes to it. It can manipulate
  * the AST in the same language or it can translate it into an entirely new
  * language.
@@ -255,7 +255,7 @@
  *   5. NumberLiteral (4) - Moving to the first element of CallExpression's params
  *   6. NumberLiteral (2) - Moving to the second element of CallExpression's params
  *
- * If we were manipulating this AST directly instead of creating a separate AST
+ * If we were manipulating this AST directly, instead of creating a separate AST,
  * we would likely introduce all sorts of abstractions here. But just visiting
  * each node in the tree is enough.
  *
@@ -296,7 +296,7 @@
  * Code generators work several different ways, some compilers will reuse the
  * tokens from earlier, others will have created a separate representation of
  * the code so that they can print node linearly, but from what I can tell most
- * will use the same AST we just created which is what we’re going to focus on.
+ * will use the same AST we just created, which is what we’re going to focus on.
  *
  * Effectively our code generator will know how to “print” all of the different
  * node types of the AST, and it will recursively call itself to print nested
@@ -329,7 +329,7 @@
   */
 
 /**
- * We're gonna start of with our first phase of parsing, lexical analysis, with the tokenizer.
+ * We're gonna start off with our first phase of parsing--lexical analysis--with the tokenizer.
  *
  * We're just going to take our string of code and break it down into an array of tokens.
  *
@@ -379,7 +379,7 @@ function tokenizer(input) {
 
     // Next we're going to check for a closing parenthesis. We do the same exact
     // thing as before: Check for a closing parenthesis, add a new token,
-    // increment current, and `continue`.
+    // increment `current`, and `continue`.
     if (char === ')') {
       tokens.push({
         type: 'paren',
@@ -389,7 +389,7 @@ function tokenizer(input) {
       continue;
     }
 
-    // Moving on we're now going to check for whitespace. This is interesting
+    // Moving on, we're now going to check for whitespace. This is interesting
     // because we care that whitespace exists to separate characters, but it
     // isn't actually important for us to store as a token. We would only throw
     // it out later.
@@ -403,7 +403,7 @@ function tokenizer(input) {
     }
 
     // The next type of token is a number. This is different than what we have
-    // seen before because a number could many any number of characters and we
+    // seen before because a number could be any number of characters and we
     // want to capture the entire sequence of characters as one token.
     //
     //   (add 123 456)
@@ -528,7 +528,7 @@ function parser(tokens) {
       // about it in our AST.
       token = tokens[++current];
 
-      // We create an base node with the type `CallExpression`, and we're going
+      // We create a base node with the type `CallExpression`, and we're going
       // to set the name as the current token's value since the next token after
       // the open parenthesis is the name of the function.
       var node = {
