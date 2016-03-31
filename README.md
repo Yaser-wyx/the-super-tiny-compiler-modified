@@ -8,7 +8,9 @@ written in easy to read JavaScript.
 Reading through the guided code will help you learn about how *most* compilers
 work from end to end.
 
-## [Want to jump into the code? Click here](super-tiny-compiler.js)
+### [Want to jump into the code? Click here](super-tiny-compiler.js)
+
+---
 
 ### Why should I care?
 
