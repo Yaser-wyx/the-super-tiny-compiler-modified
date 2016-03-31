@@ -396,7 +396,7 @@ function tokenizer(input) {
     // isn't actually important for us to store as a token. We would only throw
     // it out later.
     //
-    // So here we're just going to test for existance and if it does exist we're
+    // So here we're just going to test for existence and if it does exist we're
     // going to just `continue` on.
     var WHITESPACE = /\s/;
     if (WHITESPACE.test(char)) {
@@ -666,7 +666,7 @@ function traverser(ast, visitor) {
   // pass both to our visitor methods.
   function traverseNode(node, parent) {
 
-    // We start by testing for the existance of a method on the visitor with a
+    // We start by testing for the existence of a method on the visitor with a
     // matching `type`.
     var method = visitor[node.type];
 
