@@ -81,7 +81,7 @@
  * We're going to compile some lisp-like function calls into some C-like
  * function calls.
  *
- * If you are familiar with one or the other. I'll just give you a quick intro.
+ * If you are not familiar with one or the other. I'll just give you a quick intro.
  *
  * If we had two functions `add` and `subtract` they would be written like this:
  *
