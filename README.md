@@ -31,7 +31,7 @@ watch/star this repo or follow me on
 
 ### Tests
 
-Run with `node ./test/test.js`
+Run with `node test.js`
 
 ---
 
