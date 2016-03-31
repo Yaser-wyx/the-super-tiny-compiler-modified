@@ -1,8 +1,14 @@
 <img width="731" alt="THE SUPER TINY COMPILER" src="https://cloud.githubusercontent.com/assets/952783/14171276/ed7bf716-f6e6-11e5-96df-80a031c2769d.png"/>
 
-Welcome to The Super Tiny Compiler. It's an ultra simplified example of all the
-major pieces of a modern compiler written in easy to read JavaScript. Reading
-through it can help you learn about how most compilers work end to end.
+***Welcome to The Super Tiny Compiler!***
+
+This is an ultra-simplified example of all the major pieces of a modern compiler
+written in easy to read JavaScript.
+
+Reading through the guided code will help you learn about how *most* compilers
+work from end to end.
+
+# [Want to jump into the code? Click here](super-tiny-compiler.js)
 
 ### Why should I care?
 
