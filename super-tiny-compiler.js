@@ -446,7 +446,7 @@ function tokenizer(input) {
     //    ^^^
     //    Name token
     //
-    var LETTERS = /[a-z]i/;
+    var LETTERS = /[a-z]/i;
     if (LETTERS.test(char)) {
       var value = '';
 
