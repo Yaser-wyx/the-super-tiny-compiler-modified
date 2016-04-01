@@ -74,7 +74,7 @@
  */
 
 /**
- * Today we're going write a compiler together. But not just any compiler... A
+ * Today we're going to write a compiler together. But not just any compiler... A
  * super duper teeny tiny compiler! A compiler that is so small that if you
  * remove all the comments this file would only be ~200 lines of actual code.
  *
