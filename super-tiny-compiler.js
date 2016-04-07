@@ -751,7 +751,7 @@ function traverser(ast, visitor) {
  *                                    |             type: 'NumberLiteral',
  *                                    |             value: '2'
  *                                    |           }]
- *  (sorry the other one is longer.)  |         }
+ *  (sorry the other one is longer.)  |         }]
  *                                    |       }
  *                                    |     }]
  *                                    |   }
