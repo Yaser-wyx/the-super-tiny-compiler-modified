@@ -10,6 +10,8 @@ work from end to end.
 
 ### [Want to jump into the code? Click here](super-tiny-compiler.js)
 
+### or... [watch the talk](https://www.youtube.com/watch?v=Tar4WgAfMr4)
+
 ---
 
 ### Why should I care?
