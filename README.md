@@ -6,7 +6,7 @@
 
 把这个读完将会有助于你了解*大多数*编译器从前端到后端是如何工作的。
 
-### [想直接看代码？点这里](super-tiny-compiler.js)
+### [想直接看代码？点这里](super-tiny-compiler-chinese.js)
 
 ### 或者... [看看演讲](https://www.youtube.com/watch?v=Tar4WgAfMr4)
 
@@ -24,7 +24,7 @@
 
 ### 好吧，所以我该从哪儿开始？
 
-太棒了！直接去看 [super-tiny-compiler.js](super-tiny-compiler.js) 这个文件吧！
+太棒了！直接去看 [super-tiny-compiler-chinese.js](super-tiny-compiler-chinese.js) 这个文件吧！
 
 ### Tests
 
