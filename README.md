@@ -2,46 +2,33 @@
 
 ***Welcome to The Super Tiny Compiler!***
 
-This is an ultra-simplified example of all the major pieces of a modern compiler
-written in easy to read JavaScript.
+这是一个超级简单的编译器的例子，包含了现代编译器的几个主要部分，用简单易读的 JavaScript 编写。
 
-Reading through the guided code will help you learn about how *most* compilers
-work from end to end.
+把这个读完将会有助于你了解*大多数*编译器从前端到后端是如何工作的。
 
-### [Want to jump into the code? Click here](super-tiny-compiler.js)
+### [想直接看代码？点这里](super-tiny-compiler.js)
 
-### or... [watch the talk](https://www.youtube.com/watch?v=Tar4WgAfMr4)
+### 或者... [看看演讲](https://www.youtube.com/watch?v=Tar4WgAfMr4)
 
 ---
 
-### Why should I care?
+### 为啥我要关心这个？
 
-That's fair, most people don't really have to think about compilers in their day
-jobs. However, compilers are all around you, tons of the tools you use are based
-on concepts borrowed from compilers.
+确实，大多数人在日常工作中没有必要了解编译器都是如何工作的。但是，编译器无处不在，你使用的很多
+工具的底层原理都是从编译器那儿来的。
 
-### But compilers are scary!
+### 但是编译器太高大上了！
 
-Yes, they are. But that's our fault (the people who write compilers), we've
-taken something that is reasonably straightforward and made it so scary that
-most think of it as this totally unapproachable thing that only the nerdiest of
-the nerds are able to understand.
+额，确实。但这是我们（写编译器的人）的过错，我们把一些本应该很通俗易懂的事情弄得太可怕了，
+让很多人都认为编译器这种东西是可望而不可即的，甚至只有最书呆子的书呆子才能理解。
 
-### Okay so where do I begin?
+### 好吧，所以我该从哪儿开始？
 
-Awesome! Head on over to the [super-tiny-compiler.js](super-tiny-compiler.js)
-file.
-
-### I'm back, that didn't make sense
-
-Ouch, I'm really sorry. I'm planning on doing a lot more work on this to add
-inline annotations. If you want to come back when that's done, you can either
-watch/star this repo or follow me on
-[twitter](https://twitter.com/thejameskyle) for updates.
+太棒了！直接去看 [super-tiny-compiler.js](super-tiny-compiler.js) 这个文件吧！
 
 ### Tests
 
-Run with `node test.js`
+直接运行 `node test.js`
 
 ---
 
