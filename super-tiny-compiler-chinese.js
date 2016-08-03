@@ -239,7 +239,7 @@
  *   3. NumberLiteral (2) - CallExpression (add) 的第一个子元素
  *   4. CallExpression (subtract) - CallExpression (add) 的第二个子元素
  *   5. NumberLiteral (4) - CallExpression (subtract) 的第一个子元素
- *   6. NumberLiteral (4) - CallExpression (subtract) 的第二个子元素
+ *   6. NumberLiteral (2) - CallExpression (subtract) 的第二个子元素
  *
  * 如果我们直接在 AST 内部操作，而不是产生一个新的 AST，那么就要在这里介绍所有种类的抽象，
  * 但是目前访问（visiting）所有结点的方法已经足够了。
