@@ -231,7 +231,6 @@
  *     }]
  *   }
  *
- * So for the above AST we would go:
  * 对于上面的 AST 的遍历流程是这样的：
  *
  *   1. Program - 从 AST 的顶部结点开始
