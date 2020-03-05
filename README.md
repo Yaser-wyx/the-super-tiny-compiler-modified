@@ -33,3 +33,13 @@
 ---
 
 [![cc-by-4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
+
+## PS
+
+- 该项目更改自 https://github.com/starkwang/the-super-tiny-compiler-cn
+- 该项目里面有多个版本的 super-tiny-compiler，包含原始版本，第三方中文翻译版本，第三方优化版本以及本人修改版。
+- 原始版本：[super-tiny-compiler.js](super-tiny-compiler.js) (地址：https://github.com/ayqy/the-super-tiny-compiler)
+- 第三方翻译版：[super-tiny-compiler-chinese.js](super-tiny-compiler-chinese.js) (地址：https://github.com/starkwang/the-super-tiny-compiler-cn)
+- 第三方优化版：[optimize-version.js](optimize-version.js)（该版本已经找不到来源了，如果原作者看到，请告知。）
+- 本人修改版：[my-super-tiny-compiler.js](my-super-tiny-compiler.js)
+
